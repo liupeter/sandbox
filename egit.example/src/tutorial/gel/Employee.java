@@ -14,7 +14,7 @@ public class Employee {
 	 */
 	private String name;
 	
-	public Employee() { name = "Peter Liu"; }
+	public Employee() { name = "Dr. Peter Liu"; }
 	
 	public String toString() { return "employee name" + name; }
 	
