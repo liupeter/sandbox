@@ -18,6 +18,8 @@ public class Employee {
 	
 	public String toString() { return "employee name" + name; }
 	
+	public String getName() { return name; }
+	
 	public static void main(String[] args) {
 		Employee emp = new Employee();
 		System.out.println( emp );
