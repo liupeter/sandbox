@@ -17,6 +17,8 @@ public class Company {
 	    list = new ArrayList <Employee> ();
 	 }
 	
+	public String getCompanyName() { return companyName; }
+	
 	public String toString() {
 		
 		String s="";
@@ -24,5 +26,9 @@ public class Company {
 			s += e;
 		return s;
 	}
-
+	
+	public boolean hire (Employee emp) { 
+		list.add( emp );
+	    return true;
+	}
 }

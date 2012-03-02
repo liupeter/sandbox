@@ -20,9 +20,14 @@ public class Employee {
 	
 	public String getName() { return name; }
 	
+	public void setName( String name) { this.name = name; }
+	
 	public static void main(String[] args) {
 		Employee emp = new Employee();
 		System.out.println( emp );
+		
+		emp.setName( "Dr. Pepper" );
+		System.out.println( emp.getName());
 
 	}
 
