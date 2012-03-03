@@ -4,3 +4,7 @@ Git with Eclipse (EGit) Tutorial.
 Created by Peter Liu 3/03/2012
 
 Branch 3 is created from master.
+
++Programmer, a subclass of Employee, added
++>>> Branch 2_1 is created from Branch 1.
+
