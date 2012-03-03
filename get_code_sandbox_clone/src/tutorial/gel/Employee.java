@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package tutorial.gel;
 
 /**
@@ -29,6 +27,11 @@ public class Employee {
 		
 		emp.setName( "Dr. Pepper" );
 		System.out.println( emp.getName());
+		
+		emp.setName( "Mrs. Price" );
+		String s = emp.getName();
+		System.out.println( s );
+		
 
 	}
 
